@@ -301,3 +301,12 @@ top: -195px;
   box-shadow:  0 14px 28px #dee0e2; 0 10px 10px #dee0e2;
 
 }
+.col2 {
+  width: 50%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.content4{
+  margin-top: -20%;
+
+}
