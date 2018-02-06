@@ -1,0 +1,303 @@
+<link href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+<!-- Custom fonts for this template -->
+<link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<!-- Plugin CSS -->
+<link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+
+<link href="https://blackrockdigital.github.io/startbootstrap-creative/css/creative.min.css" rel="stylesheet">
+<!-- Bootstrap core JavaScript -->
+<script src="https://blackrockdigital.github.io/startbootstrap-creative/vendor/jquery/jquery.min.js"></script>
+<script src="https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://blackrockdigital.github.io/startbootstrap-creative/js/creative.min.js"></script>
+
+
+
+
+#mainNav {
+font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+transition: all .2s;
+border-bottom: 1px solid #fff;
+margin-top: 10px;
+}
+#mainNav .navbar-brand {
+ color: rgba(255,255,255,.7);
+ font-weight: 700;
+text-transform: uppercase;
+font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+
+}
+.navbar-light .navbar-nav .nav-link{
+ color: rgba(255,255,255,.7);
+}
+.navbar-collapse {
+ display: flex;
+ flex-basis: auto;
+ flex-grow: 1;
+ align-items: center;
+}
+.navbar-brand:hover {
+ color: #fff;
+ text-decoration: none;
+}
+.head-center {
+ height: 100vh;
+min-height: 650px;
+padding-top: 0;
+padding-bottom: 0;
+background-image: url("1.jpg");
+background-position: center center;
+background-size: cover;
+color: #fff;
+text-align: center;
+display: flex;
+}
+.head-container {
+ margin-bottom: auto;
+ margin-top: auto;
+}
+.fa {
+ line-height: 22px;
+}
+.row {
+ display: flex;
+ margin-right: -15px;
+ margin-left: -15px;
+}
+.col-head {
+ margin-right: auto;
+ margin-left: auto;
+ position: relative;
+ width: 100%;
+ min-height: 1px;
+ padding-right: 15px;
+ padding-left: 15px;
+}
+h1 {
+ font-size: 4rem;
+ font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+ margin-bottom: .5rem;
+ font-weight: 500;
+ line-height: 1.2;
+ color: inherit;
+ margin-top: 0;
+}
+.text-uppercase {
+ text-transform: uppercase;
+}
+p {
+font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+margin-top: 0;
+}
+.text-fadded {
+color: rgba(255,255,255,.7);
+margin-bottom: 3rem!important;
+text-align: center;
+box-sizing: border-box;
+
+}
+.card-4 {
+background: #fff;
+border-radius: 2px;
+display: inline-block;
+height: 20%;
+margin: 1rem;
+position: relative;
+width: 90%;
+text-align:center;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.material-card {
+text-align: center;
+margin-top: -6%;
+
+
+}
+.dropdown {
+position: relative;
+float: left;
+
+
+}
+.btn-primary {
+color: #7f7f82;
+background-color: #fff;
+font-size: 21px;
+}
+.dropdownS{
+float: left;
+
+}
+.dropdownP {
+ float: left;
+
+
+}
+.start {
+ background-color: #0b95e5;
+ float: right;
+}
+h2 {
+ color: #fff;
+}
+.line {
+ border-color: #00a0a0;
+ margin-left: 0;
+ max-width: 11%;
+ border-width: 5px;
+}
+.line2 {
+  border-color: #fff;
+  margin-left: 0;
+  max-width: 11%;
+  border-width: 5px;
+}
+.heading{
+ font-size: 35px;
+}
+.content {
+  margin-top: -7%;
+}
+.heading2 {
+  font-size: 35px;
+  color: #fff;
+}
+.material-card {
+  padding-left: 10px;
+}
+.paragraph1 {
+  color: #e8eaed;
+  font-size: 18px;
+}
+
+.paragraph {
+  color: #6c757d;
+  font-size: 18px;
+ }
+.card {
+  box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-title {
+  color: #5b5b5e;
+}
+.card-text {
+  color: #6c757d;
+}
+.view_all {
+  vertical-align: middle;
+  padding-left: 40%;
+  padding-right:40%;
+  margin-top: 5%;
+
+}
+.view_all h2 {
+text-transform: uppercase;
+background: #fff;
+padding: 12px 15px;
+border: 2px solid #00a0a0;
+font-size: 20px;
+min-width: 185px;
+text-align: center;
+}
+.view_all h2 a {
+color: #00a0a0;
+text-decoration: none;
+padding: 12px 15px;
+}
+.view_all h2:hover {
+background: #d40000;
+border-color: #d40000;
+transition: all .4s;
+-webkit-transition: all .4s;
+}
+.view_all h2:hover a {
+color: #fff;
+transition: all .4s;
+-webkit-transition: all .4s;
+}
+.container1 {
+width: 100%;
+margin-top: 5%;
+}
+.dark {
+background-color: #02807F;
+width: 100%;
+margin-top: 5%;
+height:100%;
+}
+.card-group {
+  margin-top: 8%;
+}
+.card-title2 {
+  font-size: 25px;
+}
+.card-body2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.light {
+  width: 102%;
+background-image: url("background2.jpg");
+padding-top: 0;
+margin-top: 120%;
+height: 125%;
+}
+.content2 {
+margin-top: -119%;
+padding-top: 5%;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 25px;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 25px;
+
+  }
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+  width: 57%;
+height: 57%;
+}
+.upcoming-events {
+  float: left;
+  width: 50%;
+  background-color: #000;
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+}
+.grid-item-img{
+  width: 100%;
+}
+.image {
+position: relative;
+top: -195px;
+
+
+}
+.container-plus {
+  background-color: #dee0e2;
+}
+.row {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px
+}
+.col1 {
+  width: 50%;
+  padding-left:5%;
+  box-shadow:  0 14px 28px #dee0e2; 0 10px 10px #dee0e2;
+
+}
