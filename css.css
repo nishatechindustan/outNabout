@@ -169,6 +169,7 @@ h2 {
 .heading2 {
   font-size: 35px;
   color: #fff;
+
 }
 .material-card {
   padding-left: 10px;
@@ -182,8 +183,16 @@ h2 {
   color: #6c757d;
   font-size: 18px;
  }
+ .paragraph2 {
+   font-size: 10px;
+   text-align: center;
+   margin-top: 5px;
+
+ }
+
 .card {
   box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor:pointer;
 }
 .card-title {
   color: #5b5b5e;
@@ -280,6 +289,7 @@ height: 57%;
 }
 .grid-item-img{
   width: 100%;
+  height: 100%;
 }
 .image {
 position: relative;
@@ -289,6 +299,7 @@ top: -195px;
 }
 .container-plus {
   background-color: #dee0e2;
+  height: 390%;
 }
 .row {
   width: 100%;
@@ -307,6 +318,99 @@ top: -195px;
   padding-left: 5%;
 }
 .content4{
-  margin-top: -20%;
+  margin-top: -10%;
+}
+.grid-container1 {
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+
+
+  }
+.grid-item1{
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+  width: 278px;
+  height: 100%;
+}
+.grid-item11 {
+  background-color:  #00a0a0;
+  text-align: center;
+  width: 278px;
+  height: 100%;
+}
+.heading4 {
+  font-size: 12px;
+}
+.new-image {
+  background-image: url("./dark-vintage.jpg");
+  padding-top: 0;
+  height: 300px;
+  margin-top: 10%;
+}
+.content5 {
+  margin-top: -5%;
+}
+.form-control1 {
+  display: block;
+width: 65%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 2.5;
+color: #fff;
+background-color: transparent;
+background-clip: padding-box;
+border: 2px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button {
+  font-size: 26px;
+background-color: #00a0a0;
+color: #fff;
+text-align: center;
+font-weight: 600;
+font-family: "Helvetica Neue";
+padding: 8px;
+width: 30%;
+display: inline-block;
+white-space: nowrap;
+vertical-align: middle;
+-moz-user-select: none;
+border: 1px solid transparent;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+float: right;
+margin-top: -6.5%;
+}
+.dwnld {
+  width: 96%;
+  margin-left: 2%;
+  background-color: #00a0a0;
+  height: 150px;
+  margin-top: 5%;
+}
+.dwnld-row {
+  padding
+}
+.blog-container {
+  width: 100%;
+}
+.columnA {
+  background-color: #2d2c2c;
+  height: 325px;
+  width: 100%;
+}
+.columnB {
+  background-color: #000;
+  height: 325px;
+  width: 70%;
+}
+.dwnld-app {
+  font-size: 15px;
+  color: #fff;
 
 }
