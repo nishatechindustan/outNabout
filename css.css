@@ -119,12 +119,7 @@ width: 90%;
 text-align:center;
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-.material-card {
-text-align: center;
-margin-top: -6%;
 
-
-}
 .dropdown {
 position: relative;
 float: left;
@@ -182,7 +177,10 @@ h2 {
 
 }
 .material-card {
-  padding-left: 10px;
+  padding-left: 20px;
+  width: 106%;
+  text-align: center;
+  margin-top: -6%;
 }
 .paragraph1 {
   color: #e8eaed;
@@ -330,9 +328,95 @@ padding-top: 5%;
   grid-column-gap: 25px;
   grid-template-columns: auto auto auto;
   grid-row-gap: 25px;
-  
+
 
   }
+  /*.col-S {
+    font-size: 20px;
+    color: #585858;
+    margin-top: 45px;
+
+    width: 25%;
+  }
+  .col-C {
+    font-size: 20px;
+    color: #585858;
+    margin-top: 45px;
+
+    width: 25%;
+
+  }
+  .col-P {
+    font-size: 20px;
+    color: #585858;
+    margin-top: 45px;
+
+    width: 25%;
+  }
+  .col-start {
+    width: 10%;
+    padding-left: 0;
+  }
+.outer {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+
+}*/
+.select {
+  float: left;
+
+  }
+  
+  .category {
+    font-size: 20px;
+    color: #585858;
+    margin-top: 45px;
+    float: left;
+    width: 25%;
+  }
+  .state {
+    font-size: 20px;
+    color: #585858;
+    margin-top: 45px;
+    float: left;
+    width: 25%;
+  }
+  .price {
+    font-size: 20px;
+    color: #585858;
+    margin-top: 45px;
+    float: left;
+    width: 25%;
+  }
+  .start {
+    float: right;
+    width: 25%;
+  }
+  .outer {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+
+}
   .grid-col {
     width: 50%;
   }
