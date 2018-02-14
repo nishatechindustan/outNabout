@@ -53,7 +53,7 @@ font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 min-height: 650px;
 padding-top: 0;
 padding-bottom: 0;
-background-image: url("1.jpg");
+background-image: url("events_0_107_136.jpeg");
 background-position: center center;
 background-size: cover;
 color: #fff;
@@ -63,6 +63,7 @@ display: flex;
 .head-container {
  margin-bottom: auto;
  margin-top: auto;
+ margin-left: auto;
 }
 .fa {
  line-height: 22px;
@@ -98,10 +99,11 @@ font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 margin-top: 0;
 }
 .text-fadded {
-color: rgba(255,255,255,.7);
+color: #fff;
 margin-bottom: 3rem!important;
 text-align: center;
 box-sizing: border-box;
+font-size: 20px;
 
 }
 .card-text {
@@ -140,10 +142,10 @@ float: left;
 
 
 }
-.start {
- background-color: #0b95e5;
+
+ background-color: #019fa0;
  float: right;
-}
+
 h2 {
  color: #fff;
 }
@@ -376,13 +378,14 @@ padding-top: 5%;
   float: left;
 
   }
-  
+
   .category {
     font-size: 20px;
     color: #585858;
     margin-top: 45px;
     float: left;
     width: 25%;
+    margin-left: 20px;
   }
   .state {
     font-size: 20px;
@@ -390,6 +393,7 @@ padding-top: 5%;
     margin-top: 45px;
     float: left;
     width: 25%;
+    margin-left: 20px;
   }
   .price {
     font-size: 20px;
@@ -397,10 +401,22 @@ padding-top: 5%;
     margin-top: 45px;
     float: left;
     width: 25%;
+    margin-left: 20px;
   }
   .start {
-    float: right;
-    width: 25%;
+
+width: 20%;
+margin-top: -1px;
+margin-right: -1px;
+height: 125px;
+background-color: #019fa0;
+float: right;
+
+  }
+  .let {
+    margin-top:38px;
+    color: #fff;
+    font-size: 30px;
   }
   .outer {
   width: 1px;
@@ -408,13 +424,14 @@ padding-top: 5%;
   margin: auto;
   position: relative;
   overflow: hidden;
+  float: left;
 }
 .inner {
   position: absolute;
   width:100%;
-  height: 40%;
-  background: grey;
-  top: 30%;
+  height: 50%;
+  background: #b2b2b2;
+  top: 20%;
 
 }
   .grid-col {
@@ -562,8 +579,8 @@ margin-top: -6.5%;
   width: 96%;
   margin-left: 2%;
   background-color: #00a0a0;
-  height: 150px;
-  margin-top: -30%;
+  height: 158px;
+  margin-top: -37%;
 }
 
 .blog-container {
@@ -574,17 +591,29 @@ margin-top: -6.5%;
   background-color: #2d2c2c;
   height: 325px;
   width: 100%;
+    margin-top: 15%;
 }
 .columnB {
+  background-color: #2d2c2c;
+  height: 325px;
+  width: 100%;
+
+}
+.columnC{
   background-color: #000;
   height: 325px;
-  width: 70%;
+  width:70%;
+
 }
 .img2 {
   float: right;
-  margin-top: -6%;
+  margin-top: -33%;
   width: 50%;
   margin-right: -10%;
+}
+.contact-us {
+  color: #fff;
+  font-size: 15px;
 }
 .dwnld-app {
   font-size: 45px;
@@ -617,4 +646,59 @@ hr.crown-uni {
   max-width: 90%;
   border-width: 1px;
   border-color:#9f9f9f;
+}
+.arrow-container {
+  background-color: #3a3a3a;
+  width: 100%;
+  height: 2%;
+}
+.footer-container {
+  background-color: #000000;
+  width: 100%;
+  height: 2%;
+  padding-top: 10px;
+}
+.footer{
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+  float: bottom;
+}
+h6.events {
+  font-size: 11px;
+color: #c2c2c2;
+float: left;
+padding-top: 15px;
+padding-left: 8px;
+padding-right: 8px;
+}
+.out {
+  width: 2px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.inn {
+  position: absolute;
+ width:100%;
+ height: 40%;
+ background: #9f9f9f;
+ top: 30%;
+}
+.out1 {
+  width: 2px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.inn1 {
+  position: absolute;
+ width:100%;
+ height: 40%;
+ background:rgba(255,255,255,.7);
+ top: 30%;
 }
