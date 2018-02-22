@@ -153,7 +153,7 @@ border-width: 5px;
 .line2 {
 border-color: #fff;
 margin-left: 0;
-max-width: 10%;
+max-width: 15%;
 border-width: 5px;
 }
 .lineP {
@@ -202,7 +202,7 @@ background-repeat: no-repeat;
 height: 6.5%;
 
 padding: 15px;
-padding-left: 3.5%;
+padding-left: 5.5%;
 }
 .cal-time {
   width: 28.33333333%;
@@ -360,7 +360,7 @@ width: 100%;
 background-image: url("images/background2.jpg");
 background-repeat: no-repeat;
 padding-top: 0;
-margin-top: 125%;
+margin-top: 142%;
 
 }
 .content2 {
@@ -404,9 +404,10 @@ margin-left: 20px;
 width: 20%;
 margin-top: -1px;
 margin-right: -1px;
-padding-bottom: 3.5%;
+
 background-color: #019fa0;
 float: right;
+height: 118px;
 }
 .let {
 margin-top:38px;
@@ -763,6 +764,12 @@ color: #00a0a0;
 .blog {
 font-size: 15px;
 color: #fff;
+
+}
+a:hover {
+  color:#ff6060;
+  text-decoration: none;
+
 
 }
 a:hover{
