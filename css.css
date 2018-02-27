@@ -52,6 +52,7 @@ width: 33%;
 color: #00a0a0;
 text-decoration: none;
 }
+
 .navbar-nav > li > a {
 color: #fff !important;
 font-size: 16px;
@@ -177,7 +178,7 @@ padding-left: 20px;
 width: 106%;
 text-align: center;
 margin-top: -6%;
-height: 28%;
+height: 180px;
 }
 .paragraph1 {
 color: #e8eaed;
@@ -199,7 +200,7 @@ color: #3b3b3d;
   color: #fff;
 background-image: url(images/image-middle.png);
 background-repeat: no-repeat;
-height: 6.5%;
+height: 68px;
 
 padding: 15px;
 padding-left: 5.5%;
@@ -362,7 +363,7 @@ width: 100%;
 background-image: url("images/background2.jpg");
 background-repeat: no-repeat;
 padding-top: 0;
-margin-top: 142%;
+margin-top: 160%;
 
 }
 .content2 {
@@ -409,7 +410,7 @@ margin-right: -1px;
 
 background-color: #019fa0;
 float: right;
-height: 118px;
+height: 119px;
 }
 .let {
 margin-top:38px;
@@ -435,14 +436,14 @@ top: 15%;
 width: 50%;
 }
 .grid-item-img {
-width: 200%;
-height: 100%;
+width: 100%;
+height: 175px;
 }
 .grid-item {
 background-color: rgba(255, 255, 255, 0.8);
 font-size: 30px;
 text-align: center;
-width: 50%;
+
 }
 .UE {
 background-color: #1caaac;
@@ -686,9 +687,9 @@ padding-right: 8px;
 .inn {
   position: relative;
     width: 100%;
-    height: 5%;
+    height: 8%;
     background: #9f9f9f;
-    top: 12px;
+    top: 10px;
 }
 .out1 {
 width: 2px;
