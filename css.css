@@ -15,12 +15,19 @@
 <script src="https://blackrockdigital.github.io/startbootstrap-creative/vendor/jquery/jquery.min.js"></script>
 <script src="https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://blackrockdigital.github.io/startbootstrap-creative/js/creative.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.js"></script>
 #mainNav {
 font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 transition: all .2s;
 border-bottom: 1px solid #fff;
 margin-top: 10px;
 }
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+
+    color: #fb9391 !important;
+    text-shadow: 0 0 8px #000;
+}
+
 #mainNav .navbar-brand {
 color: rgba(255,255,255,.7);
 font-weight: 700;
@@ -49,7 +56,7 @@ position: relative;
 width: 33%;
 }
 .navbar-brand:hover {
-color: #00a0a0;
+color: #00a0a0 !important;
 text-decoration: none;
 }
 
@@ -84,9 +91,14 @@ margin-bottom: auto;
 margin-top: auto;
 margin-left: auto;
 margin-right: auto;
+position: relative;
 
 
 
+}
+.my-head-wrapper {
+    position: absolute;
+    top: 14px;
 }
 .fa {
 line-height: 22px;
@@ -166,9 +178,7 @@ border-width: 5px;
 .heading{
 font-size: 40px;
 }
-.content {
-margin-top: -7%;
-}
+
 .heading2 {
 font-size: 40px;
 color: #fff;
@@ -274,16 +284,12 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 .clock-date1 {
-margin-left: 2%;
-margin-right: 2%;
-margin-top: 2%;
-height: 34px;
 float: left;
 }
 .clock-time {
 float: right;
-width: 36%;
-margin-top: 6px;
+width: 32%;
+margin-top: 0px;
 }
 .card {
 box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -303,6 +309,7 @@ padding-left: 20px;
 }
 .card-title {
 color: #5b5b5e;
+clear: both;
 }
 .card-text {
 color: #6c757d;
@@ -311,7 +318,7 @@ color: #6c757d;
 vertical-align: middle;
 padding-left: 40%;
 padding-right:40%;
-margin-top: 5%;
+margin-top: 7%;
 }
 .view_all h2 {
 text-transform: uppercase;
@@ -347,6 +354,8 @@ background-color: #02807F;
 width: 100%;
 margin-top: 5%;
 height:100%;
+padding-top: 66px;
+
 }
 .card-group {
 margin-top: 8%;
@@ -363,12 +372,22 @@ width: 100%;
 background-image: url("images/background2.jpg");
 background-repeat: no-repeat;
 padding-top: 0;
-margin-top: 160%;
+margin-top: 42%;
 
 }
 .content2 {
-margin-top: -119%;
+
 padding-top: 5%;
+}
+.card-deck {
+  margin-right: 0px;
+}
+
+
+
+.container-fluid  {
+  position: relative;
+    top: 30px;
 }
 .grid-container {
 display: grid;
@@ -434,6 +453,7 @@ top: 15%;
 }
 .grid-col {
 width: 50%;
+height: 23.5rem;;
 }
 .grid-item-img {
 width: 100%;
@@ -687,13 +707,13 @@ padding-right: 8px;
 .inn {
   position: relative;
     width: 100%;
-    height: 8%;
+    height: 5%;
     background: #9f9f9f;
     top: 10px;
 }
 .out1 {
 width: 2px;
-height: 100%;
+    height: 60px;
 margin: auto;
 position: relative;
 overflow: hidden;
