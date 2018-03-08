@@ -30,14 +30,12 @@ margin-top: 10px;
 
 #mainNav .navbar-brand {
 color: rgba(255,255,255,.7);
-font-weight: 700;
 text-transform: uppercase;
-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+font-family: roboto condensed;
 }
 #mainNav {
-    border-color: transparent;
-
-    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
 }
 .navbar-light .navbar-nav .nav-link{
 color: #fff;
@@ -59,13 +57,25 @@ width: 33%;
 color: #00a0a0 !important;
 text-decoration: none;
 }
+/* #mainNav .navbar-nav>li.nav-item>a.nav-link, {
+  font-size: 16px !important;
+  color: #fff !important !important;
 
+  padding: 7px 12px !important;
+  text-transform: capitalize !important;
+  background: transparent !important;
+  border: dashed 1px transparent !important;
+} */
+#mainNav .navbar-nav>li.nav-item>a.nav-link {
+  font-size: 14px!important;
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+}
 .navbar-nav > li > a {
 color: #fff !important;
-font-size: 16px;
+font-size: 16px
 padding: 7px 12px;
 text-transform: capitalize;
-background: transparent;
 border: dashed 1px transparent;
 }
 .navbar-nav > li > a:
@@ -79,7 +89,7 @@ height: 100vh;
 min-height: 650px;
 padding-top: 0;
 padding-bottom: 0;
-background-image: url("images/events_0_107_136.jpeg");
+background-image: url("images/header_bg.jpg");
 background-position: center center;
 background-size: cover;
 color: #fff;
@@ -176,11 +186,11 @@ max-width: 30%;
 border-width: 5px;
 }
 .heading{
-font-size: 40px;
+font-size: 36px;
 }
 
-.heading2 {
-font-size: 40px;
+.heading-heading {
+font-size: 36px;
 color: #fff;
 }
 .material-card {
@@ -197,7 +207,7 @@ font-size: 18px;
 .paragraph {
 color: #6c757d;
 font-size: 18px;
-margin-top: 20px;
+
 }
 .paragraph2 {
 font-size: 12px;
@@ -350,10 +360,10 @@ width: 100%;
 margin-top: 5%;
 }
 .dark {
-background-color: #02807F;
+background-image: url("images/nearby_bg.jpg");
 width: 100%;
 margin-top: 5%;
-height:100%;
+height:110%;
 padding-top: 66px;
 
 }
@@ -369,10 +379,10 @@ margin-top: 10px;
 }
 .light {
 width: 100%;
-background-image: url("images/background2.jpg");
+background-image: url("images/bg.jpg");
 background-repeat: no-repeat;
 padding-top: 0;
-margin-top: 42%;
+margin-top: 35%;
 
 }
 .content2 {
@@ -382,12 +392,9 @@ padding-top: 5%;
 .card-deck {
   margin-right: 0px;
 }
-
-
-
 .container-fluid  {
   position: relative;
-    top: 30px;
+  top: 30px;
 }
 .grid-container {
 display: grid;
@@ -399,24 +406,24 @@ grid-row-gap: 25px;
 float: left;
 }
 .category {
-font-size: 24px;
-color: #585858;
+font-size: 20px;
+color: #595959;
 margin-top: 45px;
 float: left;
 width: 25%;
 margin-left: 20px;
 }
 .state {
-font-size: 24px;
-color: #585858;
+font-size: 20px;
+color: #595959;
 margin-top: 45px;
 float: left;
 width: 25%;
 margin-left: 20px;
 }
 .price {
-font-size: 24px;
-color: #585858;
+font-size: 20px;
+color: #595959;
 margin-top: 45px;
 float: left;
 width: 25%;
@@ -471,7 +478,7 @@ background-color: #1caaac;
 .upcoming-events {
 float: left;
 width: 100%;
-background-image: url("images/./upcoming.jpg");
+background-image: url("images/upcoming.jpg");
 height: 100%;
 background-size: contain;
    background-repeat: no-repeat;
@@ -490,7 +497,7 @@ position: relative;
 top: -20%;
 }
 .container-plus {
-background-color: #dee0e2;
+background-color: #f2f2f2;
 
 }
 .row {
@@ -501,7 +508,7 @@ padding-right: 5px
 .col1 {
 width: 50%;
 
-box-shadow:  0 14px 28px #dee0e2; 0 10px 10px #dee0e2;
+box-shadow:  0 14px 28px #f2f2f2;
 }
 .col2 {
 width: 50%;
@@ -546,9 +553,9 @@ font-size: 15px;
 color: #19b9b9;
 }
 .new-image {
-background-image: url("images/./dark-vintage.jpg");
+background-image: url("images/./bottom_bg.jpg");
 padding-top: 0;
-padding-bottom: 3%;
+padding-bottom: 5%;
 margin-top: 5%;
 }
 .content5 {
@@ -715,7 +722,7 @@ padding-right: 8px;
 }
 .out1 {
 width: 2px;
-    height: 60px;
+height: 50px;
 margin: auto;
 position: relative;
 overflow: hidden;
@@ -724,9 +731,9 @@ float: left;
 .inn1 {
 position: absolute;
 width:100%;
-height: 40%;
+height: 30%;
 background:rgba(255,255,255,.7);
-top: 30%;
+top: 50%;
 }
 .logo-col {
 width: 30%;
@@ -1019,9 +1026,7 @@ float: right;
     position: relative !important;
     right: 10px !important;
   }
-  .light {
-    margin-top: 52%;
-  }
+
   .grid-item-img {
     height: 146px;
   }
