@@ -1,6 +1,7 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
    <head>
+      <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <link href='./css.css' rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
@@ -98,14 +99,35 @@
          </div>
       </header>
       <div class="custom-cards">
-         <div>
-            <p class="select-para"><span class="pull-left">Select Category</span><i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right">&#xf107;</i></p>
+         <div style="position: relative;">
+            <!-- <p class="select-para"><span class="pull-left">Select Category</span><i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right">&#xf107;</i></p> -->
+            <select class="banner-select-box">
+              <option>Select Category</option>
+              <option>category 1</option>
+              <option>category 2</option>
+              <option>category 3</option>
+            </select>
+              <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right custom-select-box-arrow">&#xf107;</i>
          </div>
-         <div>
-            <p class="select-para"><span class="pull-left">Select State</span> <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right">&#xf107;</i></p>
+         <div style="position: relative;">
+            <!-- <p class="select-para"><span class="pull-left">Select State</span> <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right">&#xf107;</i></p>-->
+            <select class="banner-select-box">
+              <option>Select State</option>
+              <option>state 1</option>
+              <option>state 2</option>
+              <option>state 3</option>
+            </select>
+              <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right custom-select-box-arrow">&#xf107;</i>
          </div>
-         <div style="border-right: none;">
-            <p class="select-para"><span class="pull-left">Select Price</span> <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right">&#xf107;</i></p>
+         <div style="border-right: none;  position: relative;">
+            <!-- <p class="select-para"><span class="pull-left">Select Price</span> <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right">&#xf107;</i></p> -->
+            <select class="banner-select-box">
+              <option>Select Price</option>
+              <option>price 1</option>
+              <option>price 2</option>
+              <option>price 3</option>
+            </select>
+              <i style="font-size:30px; color: #8d8d8d;" class="fa arrow pull-right custom-select-box-arrow">&#xf107;</i>
          </div>
          <div style="border-right: none;" class="lets-start">Let's start</div>
          <article class="clearfix"></article>
@@ -259,8 +281,8 @@
                   has been the industry's standard dummy text.
                </p>
             </div>
-            <br/>
-            <div>
+
+            <div class="nearby">
                <div class="nearby-events-wrapper">
                   <div class="nearby-image">
                      <img src="./images/General-Tso%u2019s-Chicken.jpg">
@@ -271,6 +293,7 @@
                         </div>
                      </div>
                   </div>
+                  <div class="reflection-wrap">
                   <div class="nearby-content">
                      <p><b>Crowne Plaza Dubai</b></p>
                      <label class="half-border"></label>
@@ -289,6 +312,7 @@
                      </div>
                      <article class="cl"></article>
                   </div>
+                </div>
                </div>
                <div class="nearby-events-wrapper scale-nearby">
                   <div class="nearby-image">
@@ -300,7 +324,7 @@
                         </div>
                      </div>
                   </div>
-
+                  <div class="reflection-wrap">
                   <div class="nearby-content">
                      <p style="color: #2b9f9f;"><b>United Arab Emirates</b></p>
                      <label class="half-border" style="border-color: #2b9f9f !important;"></label>
@@ -319,6 +343,7 @@
                      </div>
                      <article class="cl"></article>
                   </div>
+                </div>
                </div>
                <div class="nearby-events-wrapper">
                   <div class="nearby-image">
@@ -330,7 +355,8 @@
                         </div>
                      </div>
                   </div>
-                  <div>
+
+                    <div class="reflection-wrap">
                   <div class="nearby-content">
                      <p style="color: #2a4c67;"><b>United Arab Emirates</b></p>
                      <label class="half-border" style="border-color: #2a4c67 !important;"></label>
@@ -345,7 +371,7 @@
                      </div>
                      <div>
                         <i class="fa fa-calendar"></i>
-                        <label>01 Dec to 24 Dec</label>
+                        <label>01 Dec to 24</label>
                      </div>
                      <article class="cl"></article>
                   </div>
@@ -358,6 +384,7 @@
                   <a class="ng-binding" href="#">View All</a>
                </h2>
             </div>
+          </div>
          </div>
       </section>
       <section class="light">
@@ -438,7 +465,7 @@
                      heroes Mo Ezaby, Hameed, NUA and Sara H. Farhat aka sarski.<br><br>
                      His mission to cast everyone under his house music spell is<br>
                      continuing in 2017<br><br>
-                     <a class="read-more11" href="http://outnaboutme.com/blog/?p=67" style="color: #00a0a0; font-size: 22px; position: relative; right: 75%; top: 10px; float: right; text-decoration:none;">Read more<span style="color:#00a0a0;">>></span></a>
+                     <a class="read-more11" href="http://outnaboutme.com/blog/?p=67" style="color: #00a0a0; font-size: 22px; position: relative; right: 75%; float: right; text-decoration:none;">Read more<span style="color:#00a0a0;">>></span></a>
 
                   </p>
                </div>
@@ -524,6 +551,7 @@
                <div class="grid-item1">
                   <img src="images/4_img.jpg" class="grid-item-img1">
                </div>
+               <article class="clearfix"></article>
             </div>
             <div class="view_all">
                <h2>
@@ -699,24 +727,16 @@
             </div>
             <div class="arrow-container">
                <div class="container">
-                  <div style="float: left;">
+                  <div style="float: left; margin-top: 15px;">
                      <h6 class="events"><b>About Us</b></h6>
-                     <div class=out>
-                        <div class="inn"></div>
-                     </div>
+
                      <h6 class="events"><b>Today Events</b></h6>
-                     <div class=out>
-                        <div class="inn"></div>
-                     </div>
+
                      <h6 class="events"><b>Search Events</b></h6>
-                     <div class=out>
-                        <div class="inn"></div>
-                     </div>
+
                      <h6 class="events"><b>Suggested Events</b></h6>
-                     <div class=out>
-                        <div class="inn"></div>
-                     </div>
-                     <h6 class="events"><b>Upcoming Events</b></h6>
+
+                     <h6 class="events1"><b>Upcoming Events</b></h6>
                   </div>
                   <div class="footer-logo" style="float:right; padding: 8px;">
                      <img src="images/img-footer.png" alt="Image">
@@ -746,5 +766,16 @@
          $("nav").css("background","rgba(0, 0, 0, 0.4) none repeat scroll 0 0");
          }
          });
+         $(document).ready(function(){
+           setInterval(function(){
+             if ($(window).width() > 600) {
+               var totalWidth = $('.grid-container1 > div').width();
+               $('.grid-container1 > div').height(totalWidth - 10);
+             }else {
+               $('.grid-container1 > div').height('auto');
+             }
+           }, 100);
+         })
       </script>
+      </html>
    </body>
