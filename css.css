@@ -145,7 +145,7 @@ font-family: 'Roboto Condensed Light Italic', arial;
 }
 .nearby-date-content{
 width: 100%;
-border-top: 2px solid rgba(0, 0, 0, 0.2);
+border-top: 1px solid rgba(0, 0, 0, 0.2);
 padding: 10px 0;
 border-bottom: 3px solid #ffc8a2;
 }
@@ -156,7 +156,7 @@ text-align: center;
 color: #666;
 }
 .nearby-date-content > div:first-child{
-border-right: 2px solid rgba(0, 0, 0, 0.2);
+border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .nearby-date-content > div label{
 width: 100%;
