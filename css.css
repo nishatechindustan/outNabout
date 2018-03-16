@@ -62,6 +62,12 @@ color: #00a0a0;
 text-decoration: none;
 font-family: 'Roboto Condensed Light Italic', arial;
 }
+.read-more-new1, .read-more-new1:hover{
+font-size: 20px;
+color: #00a0a0;
+text-decoration: none;
+font-family: 'Roboto Condensed Light Italic', arial;
+}
 .cl{
 clear: both;
 }
@@ -724,6 +730,14 @@ text-align: center;
 .UE {
 background-color: #1caaac;
 }
+
+.top-card-timming1 {
+  color: #fff;
+  font-size: 12px;
+    margin-bottom: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
 .upcoming-events {
 float: left;
 width: 100%;
@@ -928,6 +942,10 @@ padding-top: 0%;
 .footer-container {
 background-color: #000000;
 width: 100%;
+}
+.footer-events {
+float: left;
+margin-top: 15px;
 }
 .footer-container a {
 color: #fff;
@@ -1206,8 +1224,14 @@ float: right;
 .button {
 margin-top: -7.8%;
 }
+.inn1 {
+  top: 40%;
+}
 #navbarResponsive {
 left: 10% !important;
+}
+.search {
+  line-height: 35px !important;
 }
 .col-lg-6 {
 top: 49% !important;
@@ -1218,8 +1242,11 @@ top: 68% !important;
 .col-lg-8 {
 top: 84% !important;
 }
-.material-card {
-height: 30%;
+.custom-select-box-arrow {
+  top: calc(55% - 15px);
+}
+.content4 {
+    margin-top: 0%;
 }
 .category {
 font-size: 20px;
@@ -1322,6 +1349,12 @@ font-size: 15px !important;
 .heading4 {
 font-size: 12px;
 }
+.footer-events {
+  margin-top: 0px !important;
+}
+/* .events1 {
+  margin-top: 8px;
+} */
 @media only screen and (max-width: 560px) {
 .my-grids  > .grid-col{
 height: auto;
@@ -1452,10 +1485,7 @@ margin: auto;
 .new-image .form-control1{
 width: 50%;
 }
-.new-image .button {
-margin-top: -73px;
-width: 40%;
-}
+
 .col2 {
 margin-left: 5%;
 }
@@ -1541,4 +1571,121 @@ font-size: 14px;
 text-align: center;
 padding: 15px 5px;
 }
+}
+@media only screen and (max-width: 768px) {
+.text-uppercase {
+font-size: 35px !important;
+}
+.button {
+margin-top: -10.5% !important;
+}
+.img2 {
+margin-top: 7.5%;
+}
+.dwnld-app {
+  font-size: 35px;
+}
+.logo-footer {
+  width:100% !important;
+}
+@media only screen and (max-width: 414px)
+{
+
+.text-fadded1 {
+margin-top: 5px;
+font-size: 10px!important;
+}
+.text-uppercase {
+font-size: 18px!important;
+}
+.text-fadded {
+font-size: 10px!important;
+}
+.dwnld-app {
+font-size: 25px;
+margin-left: 15%;
+margin-top: 15px;
+}
+.dwnld {
+top:50px;
+height: 115px !important;
+}
+.img2 {
+margin-right: 10%;
+margin-top: 0;
+width: 70%;
+}
+/* .events1 {
+font-size:8px !important;
+} */
+.custom-cards div {
+padding: 18px 5px;
+}
+.banner-select-box {
+font-size: 12px;
+}
+.arrow {
+margin-right: 20px !important;
+}
+.custom-select-box-arrow {
+top: calc(100% - 15px);
+}
+.custom-cards div {
+margin: 18px 0px;
+}
+.time-pikker {
+padding: 25px;
+}
+.cal-time {
+margin-top: -10px;
+}
+.cal-time1 {
+margin-top: -10px;
+}
+.fo-img {
+width: 0;
+}
+@media only screen and (max-width: 375px)
+{
+.footer-events {
+margin-top: 3px !important;
+}
+h6.events {
+padding-top: 3px;
+padding-left: 6px;
+padding-right: 6px;
+}
+/* h6.events1 {
+margin-top: 3px !important;
+padding-left: 6px;
+padding-right: 6px; */
+
+.text-uppercase {
+font-size: 15px!important;
+}
+.text-fadded {
+font-size: 8px!important;
+}
+@media only screen and (max-width: 360px)
+{
+.time-time {
+font-size: 14px !important;
+}
+h6.events {
+padding-left: 3px;
+padding-right:3px;
+}
+/* h6.events1 {
+padding-left: 3px;
+padding-right: 3px; */
+}
+.text-uppercase {
+font-size: 15px!important;
+}
+.text-fadded {
+font-size: 8px!important;
+}
+.button {
+    margin-top: -18.8% !important;
+    width: 35%;
 }
