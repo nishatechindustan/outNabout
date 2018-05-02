@@ -1,146 +1,85 @@
 <head>
    <meta charset="utf-8"/>
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <link href='./css.css' rel="stylesheet">
-   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link href='css/style.css' rel="stylesheet">
+   <link href='css/bootstrap.min.css' rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+   <link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="http://allfont.net/allfont.css?fonts=roboto-condensed-light-italic" rel="stylesheet" type="text/css" />
+   <!-- Custom fonts for this template -->
+   <link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+   <!-- Plugin CSS -->
+   <link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Custom styles for this template -->
+   <link href="https://blackrockdigital.github.io/startbootstrap-creative/css/creative.min.css" rel="stylesheet">
    <!-- Bootstrap core JavaScript -->
+
 </head>
-<style>
-   .header-text {
-     text-align: center;
-     color: #fff;
-     font-size: 20px;
-     padding: 15px;
-     margin-bottom: 0px;
-     background: #ff6060;
-   }
-   /* .form-form {
-   margin: 40px auto;
-   } */
-   .form-body {
-     overflow: auto;
-     height: auto;
-     padding: 20px !important;
-     background: #f4f5f7;
-     margin-left: auto;
-     margin-right: auto;
-   }
-   .modal .form-control.input {
-     box-shadow: none;
-   }
-   .form-group {
-     width: 100%;
-     float: left;
-   }
-   .form-group.text-center {
-     margin-bottom: 0;
-   }
-   a.fgt_btn {
-     float: right;
-     font-size: 12px;
-     color: #ff6060!important;
-   }
-   a.fgt_btn:hover {
-     text-decoration: none;
-     color: #9e9e9e !important;
-   }
-   .remember {
-     color: #495057;
-     font-size: 15px;
-     position: relative;
-     top: -2px;
-   }
-   .btn{
-     background: #191919 none repeat scroll 0 0;
-     border-radius: 0;
-     color: #fff;
-     font-size: 20px;
-     line-height: 35px;
-     padding: 4px 20px;
-     transition: all 0.6s ease-out 0s;
-     width: 100%;
-   }
-   .btn:hover{
-     background: #ff6060 none repeat scroll 0 0;
-     color: #fff;
-   }
-   .or-txt {
-     text-align: center;
-   }
-   .or-txt {
-     border-top: 1px solid #ccc;
-     margin-top: 40px;
-     width: 100%;
-   }
-   .or-txt span {
-     background: #f4f5f7; none repeat scroll 0 0;
-     color: #191919;
-     display: block;
-     margin: -11px auto 0;
-     text-transform: uppercase;
-     width: 30px;
-   }
-   .socialsarea {
-     float: left;
-     list-style: outside none none;
-     padding-left: 0;
-     text-align: center;
-     width: 100%;
-   }
-   .socialsarea li {
-     margin-bottom: 10px;
-   }
-   a {
-     cursor: pointer;
-     text-decoration: none;
-   }
-   .socialsarea li a i {
-     background: #617ac3 none repeat scroll 0 0;
-     color: #fff;
-     float: left;
-     height: 40px;
-     line-height: 20px;
-     padding: 10px 0;
-     width: 8%;
-   }
-   .socialsarea span {
-     background: #617ac3 none repeat scroll 0 0;
-     color: #fff;
-     float: right;
-     font-size: 17px;
-     font-weight: lighter;
-     height: 40px;
-     line-height: 26px;
-     padding: 7px 15px;
-     text-align: left;
-     width: 92%;
-   }
-   .socialsarea a.twitter span {
-     background: #dd4b39 none repeat scroll 0 0;
-     border-left: 1px solid #bd2b19;
-  }
-   a.page-scroll.hidelogin {
-     font-size: 15px;
-     color: #ff6060;
-     font-weight: 600;
-   }
-   .socialsarea a.twitter i {
-     background: #dd4b39 none repeat scroll 0 0;
-   }
-   .facebook > span {
-     border-left: 1px solid #4e67b0;
-   }
-   .sign_up {
-     font-size: 13px;
-     margin-bottom: 0;
-   }
-   .fgt_btn_sign {
-     color: #ff6060!important;
-   }
-   .fgt_btn_sign:hover {
-     color:  #9e9e9e!important;
-   }
-</style>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-light " id="mainNav" style="background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;">
+     <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="http://outnaboutme.com/">
+        <img src="images/outnabout.png" alt="Image">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff; background-color: #fff;">
+        <span class="navbar-toggler-icon" style="color: #fff;"></span>
+        </button>
+        <div class="collapse navbar-collapse nav_nav" id="navbarResponsive">
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                 <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li>
+                 <div class=out1>
+                    <div class="inn1"></div>
+                 </div>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="signup.html">Sign up</a>
+              </li>
+              <li>
+                 <div class=out1>
+                    <div class="inn1"></div>
+                 </div>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link " href="login.html">Login</a>
+              </li>
+              <li>
+                 <div class=out1>
+                    <div class="inn1"></div>
+                 </div>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="advertise.html">Advertise with us</a>
+              </li>
+              <li>
+                 <div class=out1>
+                    <div class="inn1"></div>
+                 </div>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="">Help center</a>
+              </li>
+              <li>
+                 <div class=out1>
+                    <div class="inn1"></div>
+                 </div>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link search-link" href="#"><i class="fa fa-search search"></i></a>
+              </li>
+           </ul>
+        </div>
+     </div>
+  </nav>
+</head>
+<body>
+
 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 form-form" >
    <div class="login-form">
       <h2 class="header-text">Log In</h2>
@@ -163,20 +102,20 @@
                </div>
             </form>
             <div class="form-group">
-               <div class="or-txt">
+               <div class="or_txt">
                   <span>OR</span>
                </div>
             </div>
             <div class="form-group">
                <ul class="socialsarea">
                   <div class="row">
-                     <li class="col-sm-12">
+                     <li class="col-sm-6">
                         <a href="" class="facebook">
                         <i class="fa fa-facebook"></i>
                         <span>Facebook Login</span>
                         </a>
                      </li>
-                     <li class="col-sm-12">
+                     <li class="col-sm-6">
                         <a href="" class="twitter">
                         <i class="fa fa-google"></i>
                         <span>Google Login</span>
@@ -198,3 +137,165 @@
 </div>
 </div>
 </div>
+<footer>
+   <div class="footer-footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="col-md-6 logo-social">
+                  <div class="footer-left">
+                     <img class="logo-footer" src="images/outnabout.png" style="width: 100%;">
+                     <p>Discover the best events in your city; featuring your concerts of favorite artists, Venues, Weekend getaways, events near you etc just finger tips Away.</p>
+                     <hr class="logo-line">
+                     <ul class="social">
+                        <li class="social-icon-list">
+                           <a class="icon-link" href="#" target="blank">
+                           <i class="fa fa-facebook" style="font-size:24px;">
+                           </i>
+                           </a>
+                        </li>
+                        <li class="social-icon-list">
+                           <a class="icon-link" href="#" target="blank">
+                           <i class="fa fa-twitter" style="font-size: 24px;">
+                           </i>
+                           </a>
+                        </li>
+                        <li class="social-icon-list">
+                           <a class="icon-link" href="#" target="blank">
+                           <i class="fa fa-instagram" style="font-size: 24px;">
+                           </i>
+                           </a>
+                        </li>
+                        <li class="social-icon-list">
+                           <a class="icon-link" href="#" target="blank">
+                           <i class="fa fa-envelope" style="font-size: 24px;">
+                           </i>
+                           </a>
+                        </li>
+                        <li class="social-icon-list">
+                           <a class="icon-link" href="#" target="blank">
+                           <i class="fa fa-skype" style="font-size: 24px;">
+                           </i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 15px;">
+                  <h3 class="blog"><b>Latest Blog</b></h3>
+                  </a>
+                  <div class="event">
+                     <div class="col-sm-3 image-area">
+                        <div class="row">
+                           <a href="http://outnaboutme.com/blog/?p=67">
+                           <img style="width:80px;height:60px;" src="http://outnaboutme.com/blog/wp-content/uploads/2017/07/fb_cover_summer_party_v4.png">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-sm-8 evntarea">
+                        <p class="read">Immerse yourself in a full-on wonderland of festivities, dazzling decoration
+                        </p>
+                        <p class="posted">
+                        Posted by:10 sep 2017</p>
+                     </div>
+                  </div>
+                  <div>
+
+                  </div>
+                  <hr class="logo-line2">
+                  <div class="event">
+                     <div class="col-sm-3 image-area">
+                        <div class="row">
+                           <a href="http://outnaboutme.com/blog/?p=50">
+                           <img style="width:80px;height:60px;" src="http://outnaboutme.com/blog/wp-content/uploads/2017/06/13615121_292026537812036_25898716660309208_n.jpg">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-sm-8 evntarea">
+                        <p class="read">Immerse yourself in a full-on wonderland of festivities, dazzling decoration
+                        </p>
+                        <p class="posted">Posted by:10 sep 2017</p>
+                        </p>
+                     </div>
+                  </div>
+                  <a class="read-more" href="http://outnaboutme.com/blog/?p=67">Read more<span style="color:#00a0a0;">>></span></a>
+                  </div> -->
+               <div class="col-sm-3">
+                  <h3 class="customer"><b>Customer Service</b></h3>
+                  <ul>
+                     <li><a href="#" target="_blank">Contact Us</a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank">Help Center</a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank">Submit Event</a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank">Our supporting partners</a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank">Customer Feedback</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <h3 class="customer"><b>Contact us</b></h3>
+                  <div class="clearfix"></div>
+                  <div class="icon-add">
+                     <div>
+                        <p class="support">
+                           <i class="material-icons pull-left material_icon">language</i>
+                           <span class="footer_contact">support@outnabout.co.in</span>
+                        </p>
+                     </div>
+                     <div>
+                        <p class="support">
+                           <i class="material-icons pull-left material_icon">call</i>
+                           <span class="footer_contact">123456789<br>
+                           123456789, 123456789</span>
+                        </p>
+                     </div>
+                     <div>
+                        <p class="support">
+                           <i class="material-icons pull-left material_icon">call</i>
+                           <span class="footer_contact">ABCDEFGH
+                           </span>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="arrow-container">
+         <div class="container">
+            <div class="row">
+               <div class="footer-nav col-md-12">
+                  <div class="col-md-8">
+                     <ul class="footer-events">
+                        <li class="events"><a href="#">About Us</a></li>
+                        <li class="events"><a href="#">Today Events</a></li>
+                        <li class="events"><a href="#">Search Events</a></li>
+                        <li class="events"><a href="#">Suggested Events</a></li>
+                        <li class="events1"><a href="#" >Upcoming Events</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4 footer-logo pull-right">
+                     <img class="fo-img" src="images/img-footer.png" alt="Image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-container">
+         <div class="container">
+            <p class="footer">All Right Reserved. Designed by
+               <a href="#" traget="_blank">tecHindustan</a>
+            </p>
+         </div>
+      </div>
+   </div>
+</footer>
+</body>
+</html>
