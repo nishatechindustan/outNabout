@@ -23,56 +23,36 @@
    <body>
       <nav class="navbar navbar-expand-lg navbar-light nav_header" id="mainNav" >
          <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="http://outnaboutme.com/">
-            <img src="images/outnabout.png" alt="Image">
+            <a class="navbar-header page-scroll logo" href="#">
+            <img src="images/logo.png" alt="Image" class="nav-img">
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff; background-color: #fff;">
             <span class="navbar-toggler-icon" style="color: #fff;"></span>
             </button>
-            <div class="collapse navbar-collapse nav_nav" id="navbarResponsive">
-               <ul class="navbar-nav ml-auto">
+            <div class="right-header" id="navbarResponsive">
+               <ul class="navbar-nav">
                   <li class="nav-item">
                      <a class="nav-link" href="index.html">Home</a>
                   </li>
-                  <li>
-                     <div class=out1>
-                        <div class="inn1"></div>
-                     </div>
-                  </li>
+
                   <li class="nav-item">
                      <a class="nav-link" href="signup.html">Sign up</a>
                   </li>
-                  <li>
-                     <div class=out1>
-                        <div class="inn1"></div>
-                     </div>
-                  </li>
+
                   <li class="nav-item">
                      <a class="nav-link " href="login.html">Login</a>
                   </li>
-                  <li>
-                     <div class=out1>
-                        <div class="inn1"></div>
-                     </div>
-                  </li>
+
                   <li class="nav-item">
                      <a class="nav-link" href="advertise.html">Advertise with us</a>
                   </li>
-                  <li>
-                     <div class=out1>
-                        <div class="inn1"></div>
-                     </div>
-                  </li>
+
                   <li class="nav-item">
                      <a class="nav-link" href="">Help center</a>
                   </li>
-                  <li>
-                     <div class=out1>
-                        <div class="inn1"></div>
-                     </div>
-                  </li>
+
                   <li class="nav-item">
-                     <a class="nav-link search-link" href="#"><i class="fa fa-search search"></i></a>
+                     <a class="nav-link" href="#"><i class="fa fa-search search"></i></a>
                   </li>
                </ul>
             </div>
@@ -99,41 +79,56 @@
          </div>
       </header>
       <div class="custom-cards">
-     <div style="position: relative;">
+     <div  class="custom_cards">
 
             <select class="banner-select-box">
-               <option>Select Category</option>
-               <option>category 1</option>
-               <option>category 2</option>
-               <option>category 3</option>
+               <option>Select a categories</option>
+               <option>Sports</option>
+               <option>Shows</option>
+               <option>Movies</option>
+               <option>Comedy</option>
+               <option>Family/kids</option>
+               <option>Festivals</option>
+               <option>Love shows</option>
+               <option>Meditation</option>
+               <option>Party</option>
             </select>
             <i class="fa arrow pull-right custom-select-box-arrow arrow_style">&#xf107;</i>
          </div>
-     <div style="position: relative;">
+     <div class="custom_cards">
 
             <select class="banner-select-box">
-               <option>Select State</option>
-               <option>state 1</option>
-               <option>state 2</option>
-               <option>state 3</option>
+               <option>Select a State</option>
+               <option>Delhi</option>
+               <option>Chandigarh</option>
+               <option>Dubai</option>
+               <option>Chennai</option>
+               <option>Bhopal</option>
+               <option>Mumbai</option>
+               <option>Canada</option>
+               <option>Shimla</option>
+               <option>Kerla</option>
+
             </select>
               <i class="fa arrow pull-right custom-select-box-arrow arrow_style">&#xf107;</i>
          </div>
-     <div style="border-right: none;  position: relative;">
+     <div  class="custom_cards-cards">
 
-            <select class="banner-select-box">
-               <option>Select Price</option>
+            <!-- <select class="banner-select-box">
+               <option>Title name</option>
                <option>price 1</option>
                <option>price 2</option>
                <option>price 3</option>
-            </select>
-            <i class="fa arrow pull-right custom-select-box-arrow arrow_style">&#xf107;</i>
+            </select> -->
+            <input type="text" name="title" id="title" placeholder="Title name" class="banner-select-box">
+            <!-- <i class="fa arrow pull-right custom-select-box-arrow arrow_style">&#xf107;</i> -->
          </div>
-         <div style="border-right: none;" class="lets-start">Let's start</div>
+         <div class="lets-start">Search</div>
          <article class="clearfix"></article>
       </div>
       <div class="container">
-         <h3 class="heading"><b>TOP EVENTS</b></h3>
+        <div class="top-events">
+         <h3 class="heading"><b>RECENT EVENTS</b></h3>
          <hr class="line">
          <p class="paragraph">Lorem Ipsum is somply dummy text of the printing and typesetting industry. Lorem Ipsum<br>
             has been the industry's standard dummy text.
@@ -141,7 +136,7 @@
          <div class="custom-top-cards">
             <div class="top-card-wrapper">
                <div class="top-card-image">
-                  <img src="./images/imgpsh_fullsize.jpeg">
+                  <img class="scale-transform" src="./images/imgpsh_fullsize.jpeg">
                   <label>7 days left</label>
                </div>
                <div class="top-card-content">
@@ -171,7 +166,7 @@
             </div>
             <div class="top-card-wrapper">
                <div class="top-card-image">
-                  <img src="./images/imgpsh_fullsize (1).jpeg">
+                  <img class="scale-transform" src="./images/imgpsh_fullsize (1).jpeg">
                   <label>7 days left</label>
                </div>
                <div class="top-card-content">
@@ -202,7 +197,7 @@
             </div>
             <div class="top-card-wrapper">
                <div class="top-card-image">
-                  <img src="./images/imgpsh_fullsize (2).jpeg">
+                  <img class="scale-transform" src="./images/imgpsh_fullsize (2).jpeg">
                   <label>7 days left</label>
                </div>
                <div class="top-card-content">
@@ -234,7 +229,7 @@
             </div>
             <div class="top-card-wrapper">
                <div class="top-card-image">
-                  <img src="./images/imgpsh_fullsize (3).jpeg">
+                  <img class="scale-transform" src="./images/imgpsh_fullsize (3).jpeg">
                   <label>7 days left</label>
                </div>
                <div class="top-card-content">
@@ -272,6 +267,7 @@
             </h2>
          </div>
       </div>
+    </div>
       <section class="dark">
          <div class="container">
             <div class="content">
@@ -284,7 +280,7 @@
             <div class="nearby">
                <div class="nearby-events-wrapper">
                   <div class="nearby-image">
-                     <img src="./images/General-Tso%u2019s-Chicken.jpg">
+                     <img class="scale-transform1" src="./images/General-Tso%u2019s-Chicken.jpg">
                      <div class="nearby-image-des">
                         <label class="nearby-event-date"><label>01</label><span>Dec</span></label>
                         <div class="nearby-event-title">
@@ -315,7 +311,7 @@
                </div>
                <div class="nearby-events-wrapper scale-nearby">
                   <div class="nearby-image">
-                     <img src="./images/General-Tso%u2019s-Chicken.jpg">
+                     <img class="scale-transform1" src="./images/General-Tso%u2019s-Chicken.jpg">
                      <div class="nearby-image-des">
                         <label class="nearby-event-date" style="background-color: #2b9f9f;"><label>01</label><span>Dec</span></label>
                         <div class="nearby-event-title">
@@ -346,7 +342,7 @@
                </div>
                <div class="nearby-events-wrapper">
                   <div class="nearby-image">
-                     <img src="./images/General-Tso%u2019s-Chicken.jpg">
+                     <img class="scale-transform1"src="./images/General-Tso%u2019s-Chicken.jpg">
                      <div class="nearby-image-des">
                         <label class="nearby-event-date" style="background-color: #2a4c67;"><label>01</label><span>Dec</span></label>
                         <div class="nearby-event-title">

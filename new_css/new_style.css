@@ -1,0 +1,20 @@
+.fixed-top {
+    /* position: fixed; */
+  }
+  #mainNav .navbar-brand {
+    margin-right: 0!important;
+  }
+  li.nav-item:after {
+      position: absolute;
+      width: 2px;
+      height: 15px;
+      content: '';
+      background: #fff;
+      top: 24px;
+  }
+  li.nav-item:last-child:after {
+    content: none;
+  }
+  a.navbar-brand.navlogo {
+      margin-right: 0;
+  }
