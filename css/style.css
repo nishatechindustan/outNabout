@@ -461,7 +461,7 @@ i.arrow_style {
   -webkit-appearance:none;
   appearance:none;
   outline: none;
-  padding: 10px;
+  padding: 15px;
   font-size: 14px;
   color: #595959;
   font-family: 'Roboto Condensed Light Italic', arial;
@@ -475,6 +475,18 @@ i.arrow_style {
   color: #595959;
   opacity: 0.5;
 }*/
+
+select.banner-select-box:after {
+    position: absolute;
+    content: '&#xf062';
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: red;
+}
 .custom-cards{
   width: 100%;
   margin: auto;
@@ -510,11 +522,13 @@ i.arrow_style {
   background-color:  #00a0a0;
   color: #fff;
   border-right: none !important;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bolder;
   margin: 0 0 !important;
-    padding: 9px !important;
+  padding: 9px !important;
   font-family: 'Roboto Condensed Light Italic', arial;
+  width: 25%;
+  border: none;
 }
 .lets-start:hover {
   background-color: #d40000;;
@@ -711,14 +725,10 @@ margin-right: 0px;
 }
 .image {
   position: relative;
-  top: -20%;
-}
-.today-offers {
-  margin-top: -100px;
+
 }
 .container-plus {
   background-color: #f2f2f2;
-  padding-top: 30px;
 }
 .col1 {
   width: 50%;
